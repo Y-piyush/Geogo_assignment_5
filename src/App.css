@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+  align-content: center;
+  font-size: 1em;
+ 
+  
+}
+
+.main_body{
+  width:500px;
+  height:100vh;
+  
+  margin:0 auto;
+  
+}
+nav{
+  align-content: center;
+ justify-content: center;
+ margin:0 auto;
+ margin-bottom:20px;
+}
+ .container-fluid
+{
+  text-align: center;
+  margin:0 auto;
+  display: flex;
+  /* justify-content: space-evenly;   */
+} 
+.explore{
+  margin:0 auto;
+  /* margin-right:5%; */
+  
+}
+.d-flex img{
+  padding-right: 4px;
+  vertical-align: middle;
+}
+.navbar-collapse{
+  flex-grow: unset;
+}
+#navbarSupportedContent{ 
+  font-size: 1.5rem;
+  
+  margin:0 auto;
+}
+#navbarSupportedContent ul
+{
+  justify-content: space-between;
+}
+#navbarSupportedContent ul li{
+  padding:0 5px;
+ 
+}
+p{
+  margin: 0;
+}
+#navbarSupportedContent ul li p a{
+  padding:0 5px;
+  font-size: 0.9rem;
+  
+}
+.Create_post{
+  width:500px;
+  height:120px;
+  margin:0 auto;
+  padding:10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #b4b3b3;
+}
+.Create_post img{
+   margin:0 5px;
+   width:50px;
+
+   border-radius: 25px;
+}
+.Create_post .form-control{
+  border-radius: 20px;
+  width:400px;
+  display: inline-block;
+  text-align: left;
+  background-color: #c0c0c0fd;
+}
+.post_special{
+  display:flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  vertical-align: middle;
+  height:30px;
+  margin-top:20px;
+}
+.post_special div button {
+  border: none;
+  padding:5px 20px;
+  background-color: #ffffff;
+  
+  border-radius: 5px;
+}
+.post_special div button:hover{
+  background-color: #dbd8d8;
+}
+.post_special div button span svg{
+  margin-right:5px;
+   font-size: 1.2rem;
+   vertical-align: middle;
+   
+}

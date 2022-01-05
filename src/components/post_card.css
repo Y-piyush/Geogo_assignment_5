@@ -1,0 +1,97 @@
+.post {
+    width: 500px;
+    
+    display: flex;
+    
+    justify-content: space-between;
+   border-radius: 10px;
+    transform-origin: top;
+    margin:20px 0;
+    padding:10px 10px 10px 10px;
+   
+    text-align: justify;
+}
+
+.post-title {
+    font-size: 14pt;
+    margin-bottom: 5px;
+}
+.post-content {
+    font-size: 12pt;
+}
+
+.post-authorName {
+    font-style: italic;
+    font-size: 14pt;
+    color: #000000;
+    font-weight: bold;
+}
+.post-dateCreated {
+    font-size: 8pt;
+    color: rgb(150, 150, 150);
+}
+
+.post:hover .more {
+    visibility: visible;
+    opacity: 1;
+}
+
+.post-info{
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.more {
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    justify-content: end;
+    transition: all 0.3s ease;
+
+}
+.more .button {
+    border-radius: 100%;
+    margin: 0 0 0 8px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    padding: 0;
+    padding-left: 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    word-wrap: break-word;
+}
+
+
+
+
+.special_f{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    height:30px;
+}
+.special_f div button {
+    border: none;
+    padding:5px 20px;
+    background-color: #ffffff;
+    color:#6e6e6e;
+    border-radius: 5px;
+}
+.special_f div button:hover{
+    background-color: #dbd8d8;
+}
+.special_f div button span svg{
+    margin-right:3px;
+     font-size: 1.2rem;
+     
+}
+hr{
+    margin:0.5rem 0;
+}
